@@ -8,6 +8,14 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
+    <div class="container">
+      <form class="form-inline form-el search-form js-search-form">
+        <input type="text" class="form-control" name="query" />
+        <button type="submit" class="btn btn-primary btn-search">Search</button>
+      </form>
+      <span class="loader">Loading</span>
+      <ul class="image-list img-list gallery js-article-list"></ul>
+    </div>
     <script type="module" src="./main.js"></script>
   </body>
 </html>
