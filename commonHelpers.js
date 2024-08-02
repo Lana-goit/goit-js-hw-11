@@ -4,7 +4,7 @@ var g=Object.defineProperty;var L=(e,t,r)=>t in e?g(e,t,{enumerable:!0,configura
   <div class="content">
     <div class="item"><h3>Likes</h3><p>${e.likes}</p></div>
     <div class="item"><h3>Views</h3><p>${e.views}</p></div>
-    <div class="item"><h3>Comments</h3><p>${e.comments}</p></div>
+     <div class="item"><h3>Comments</h3><p>${e.comments}</p></div>
     <div class="item"><h3>Downloads</h3><p>${e.downloads}</p></div>
  </div>
 </li>
