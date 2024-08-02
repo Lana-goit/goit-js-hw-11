@@ -15,7 +15,7 @@ export function articleTemplate(article) {
   <div class="content">
     <div class="item"><h3>Likes</h3><p>${article.likes}</p></div>
     <div class="item"><h3>Views</h3><p>${article.views}</p></div>
-    <div class="item"><h3>Comments</h3><p>${article.comments}</p></div>
+     <div class="item"><h3>Comments</h3><p>${article.comments}</p></div>
     <div class="item"><h3>Downloads</h3><p>${article.downloads}</p></div>
  </div>
 </li>
